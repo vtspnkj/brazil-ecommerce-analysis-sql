@@ -1,41 +1,44 @@
 # 🇧🇷 Brazil E-commerce Analytics using SQL
 
-## Project Overview
+## 📌 Project Overview
 
-This project analyzes a Brazilian e-commerce dataset using SQL in Google BigQuery.
+This project analyzes a Brazilian e-commerce dataset using **Google BigQuery** and **SQL** to uncover business insights related to customer behavior, sales trends, operational performance, delivery efficiency, and payment patterns.
 
-The objective was to explore customer purchasing behavior, sales trends, delivery performance, freight costs, payment methods, and operational efficiency to generate business insights and recommendations.
-
----
-
-## Business Problem
-
-An e-commerce company wants to better understand:
-
-- Customer purchasing behavior
-- Sales trends over time
-- Regional performance
-- Delivery efficiency
-- Freight costs
-- Payment preferences
-
-The goal is to use data to support business decisions that improve customer experience and operational performance.
+The project follows a structured business case approach, where each analysis is supported by SQL queries, screenshots, business interpretations, and actionable recommendations.
 
 ---
 
-## Dataset
+# 🎯 Business Objective
 
-- Brazilian E-commerce Dataset
-- Multiple relational tables
-- Customers
-- Orders
-- Payments
-- Order Items
-- Geolocation
+The objective of this project is to help an e-commerce company answer important business questions such as:
+
+- How has the business grown over time?
+- Where are customers located?
+- Which states generate the most business?
+- How efficient are deliveries?
+- How do customers pay?
+- What operational improvements can increase customer satisfaction?
 
 ---
 
-## Tools Used
+# 🗂 Dataset
+
+The project uses the **Brazilian E-commerce Public Dataset** consisting of multiple relational tables.
+
+### Tables Used
+
+- customers
+- orders
+- order_items
+- payments
+- products
+- sellers
+- geolocation
+- reviews
+
+---
+
+# 🛠 Tools & Technologies
 
 - Google BigQuery
 - SQL
@@ -43,14 +46,14 @@ The goal is to use data to support business decisions that improve customer expe
 
 ---
 
-## SQL Concepts Used
+# 📚 SQL Skills Demonstrated
 
 - SELECT
 - WHERE
-- GROUP BY
 - ORDER BY
-- CASE WHEN
+- GROUP BY
 - Aggregate Functions
+- CASE WHEN
 - JOINS
 - Common Table Expressions (CTEs)
 - Window Functions
@@ -58,79 +61,141 @@ The goal is to use data to support business decisions that improve customer expe
 
 ---
 
-## Business Questions Answered
+# 📂 Repository Structure
+
+```
+brazil-ecommerce-analysis-sql/
+
+│
+├── README.md
+├── sql/
+├── screenshots/
+├── documentation/
+└── images/
+```
+
+---
+
+# 📖 Project Progress
+
+## ✅ Section 1 – Data Exploration (Completed)
+
+### Query 1 – Customer Table Preview
+
+**Business Question**
+
+What information is available in the customer table?
+
+**Purpose**
+
+Understand the structure of the customer dataset before beginning analysis.
+
+---
+
+### Query 2 – Order Date Range
+
+**Business Question**
+
+What time period does the dataset cover?
+
+**Purpose**
+
+Determine whether the available data supports trend and seasonal analysis.
+
+---
+
+### Query 3 – Customer Geographic Coverage
+
+**Business Question**
+
+How many unique cities and states are represented?
+
+**Purpose**
+
+Measure the company's geographic reach across Brazil.
+
+---
+
+### Query 4 – Total Orders
+
+**Business Question**
+
+How many orders are available for analysis?
+
+**Purpose**
+
+Understand the scale of the dataset.
+
+---
+
+### Query 5 – Order Status Distribution
+
+**Business Question**
+
+What are the different order statuses?
+
+**Purpose**
+
+Evaluate operational performance and order fulfillment.
+
+---
+
+## 🚧 Upcoming Analysis
+
+The following analyses will be added as the project progresses.
+
+### Sales Trend Analysis
+
+- Year-over-Year Growth
+- Monthly Order Trends
+- Time-of-Day Purchase Analysis
 
 ### Customer Analysis
 
-- Number of cities and states served
-- Customer distribution by state
+- Customer Distribution by State
+- Regional Performance
 
-### Sales Analysis
+### Delivery Analysis
 
-- Year-over-year order growth
-- Monthly order trends
-- Time-of-day purchasing behavior
+- Delivery Time
+- Delivery Delays
+- Estimated vs Actual Delivery
 
-### Operations Analysis
+### Freight Analysis
 
-- Delivery performance
-- Delivery delays
-- Freight cost analysis
-- State-wise delivery comparison
+- Freight Cost by State
+- Highest and Lowest Freight Regions
 
-### Financial Analysis
+### Payment Analysis
 
-- Order value analysis
-- Payment method analysis
-- Installment analysis
+- Payment Types
+- Installments
+- Payment Trends
 
 ---
 
-## Key Insights
+# 📸 Screenshots
 
-- Orders increased significantly between 2017 and 2018.
-- Afternoon was the busiest shopping period.
-- São Paulo had the largest customer base.
-- Credit cards were the most commonly used payment method.
-- Freight costs varied significantly across states.
-- Delivery performance differed considerably by region.
+Project screenshots will be added as each analysis is completed.
 
 ---
 
-## Business Recommendations
+# 💡 Key Insights
 
-- Improve logistics in high freight-cost regions.
-- Optimize warehouse locations.
-- Increase marketing in low-performing states.
-- Plan inventory around seasonal demand.
-- Improve delivery efficiency using best-performing regions as benchmarks.
+This section will be updated after completing all business analyses.
 
 ---
 
-## Repository Structure
+# 📈 Business Recommendations
 
-```
-brazil-ecommerce-analysis-sql
-
-│
-
-├── README.md
-
-├── sql_queries/
-
-├── screenshots/
-
-├── images/
-
-└── documentation/
-```
+Recommendations will be added after completing the full analysis.
 
 ---
 
-## Author
+# 👨‍💻 Author
 
 **Pankaj Vats**
 
-Aspiring Data Analyst
+Technical Support Specialist | Aspiring Data Analyst
 
 British Columbia, Canada

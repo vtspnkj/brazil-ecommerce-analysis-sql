@@ -1,201 +1,161 @@
 # 🇧🇷 Brazil E-commerce Analytics using SQL
 
-## 📌 Project Overview
+## Project Overview
 
-This project analyzes a Brazilian e-commerce dataset using **Google BigQuery** and **SQL** to uncover business insights related to customer behavior, sales trends, operational performance, delivery efficiency, and payment patterns.
+This project analyzes a real-world Brazilian e-commerce dataset using **Google BigQuery** and **SQL** to answer business questions related to sales performance, customer behavior, logistics, freight costs, delivery efficiency, and payment trends.
 
-The project follows a structured business case approach, where each analysis is supported by SQL queries, screenshots, business interpretations, and actionable recommendations.
-
----
-
-# 🎯 Business Objective
-
-The objective of this project is to help an e-commerce company answer important business questions such as:
-
-- How has the business grown over time?
-- Where are customers located?
-- Which states generate the most business?
-- How efficient are deliveries?
-- How do customers pay?
-- What operational improvements can increase customer satisfaction?
+The project was completed as part of a structured business case study and organized into a professional analytics portfolio showcasing SQL, data analysis, and business problem-solving skills.
 
 ---
 
-# 🗂 Dataset
+# Business Problem
 
-The project uses the **Brazilian E-commerce Public Dataset** consisting of multiple relational tables.
+An e-commerce company wants to better understand its operations by analyzing:
 
-### Tables Used
+- Customer purchasing behavior
+- Sales growth
+- Regional performance
+- Freight costs
+- Delivery efficiency
+- Payment preferences
 
-- customers
-- orders
-- order_items
-- payments
-- products
-- sellers
-- geolocation
-- reviews
+The objective is to generate actionable business insights that support better decision-making.
 
 ---
 
-# 🛠 Tools & Technologies
+# Dataset
+
+This project uses the **Brazilian E-commerce Public Dataset (Olist)**.
+
+The dataset contains information from 2016–2018 and includes:
+
+- Customers
+- Orders
+- Order Items
+- Products
+- Sellers
+- Payments
+- Reviews
+- Geolocation
+
+For more details, see:
+
+📁 `datasets/README.md`
+
+---
+
+# Tools Used
 
 - Google BigQuery
 - SQL
 - GitHub
+- Git
+- Tableau (Dashboard coming soon)
 
 ---
 
-# 📚 SQL Skills Demonstrated
+# SQL Skills Demonstrated
 
 - SELECT
 - WHERE
-- ORDER BY
 - GROUP BY
+- ORDER BY
+- JOINS
 - Aggregate Functions
 - CASE WHEN
-- JOINS
 - Common Table Expressions (CTEs)
 - Window Functions
 - Date Functions
+- Subqueries
 
 ---
 
-# 📂 Repository Structure
+# Project Structure
 
-```
+```text
 brazil-ecommerce-analysis-sql/
 
-│
-├── README.md
 ├── sql/
 ├── screenshots/
+├── datasets/
 ├── documentation/
-└── images/
+├── images/
+└── tableau/
 ```
 
 ---
 
-# 📖 Project Progress
+# Business Analysis Performed
 
-## ✅ Section 1 – Data Exploration (Completed)
+## Data Exploration
 
-### Query 1 – Customer Table Preview
+- Customer distribution
+- Order overview
+- Sales growth
 
-**Business Question**
+## Sales Analysis
 
-What information is available in the customer table?
+- Year-over-year order growth
+- Monthly sales trends
+- Time-of-day purchasing behavior
 
-**Purpose**
+## Economy Analysis
 
-Understand the structure of the customer dataset before beginning analysis.
+- Revenue growth
+- Order value analysis
+- Freight value analysis
 
----
+## Delivery Analysis
 
-### Query 2 – Order Date Range
+- Delivery performance
+- Estimated vs. actual delivery
+- State-wise logistics comparison
 
-**Business Question**
+## Payment Analysis
 
-What time period does the dataset cover?
-
-**Purpose**
-
-Determine whether the available data supports trend and seasonal analysis.
-
----
-
-### Query 3 – Customer Geographic Coverage
-
-**Business Question**
-
-How many unique cities and states are represented?
-
-**Purpose**
-
-Measure the company's geographic reach across Brazil.
+- Payment methods
+- Payment installments
 
 ---
 
-### Query 4 – Total Orders
+# Repository Highlights
 
-**Business Question**
-
-How many orders are available for analysis?
-
-**Purpose**
-
-Understand the scale of the dataset.
-
----
-
-### Query 5 – Order Status Distribution
-
-**Business Question**
-
-What are the different order statuses?
-
-**Purpose**
-
-Evaluate operational performance and order fulfillment.
+- 23 SQL business analyses
+- Professional SQL documentation
+- Business-focused queries
+- Dataset documentation
+- Data dictionary
+- Business questions documentation
+- Query result screenshots
+- Portfolio-ready project structure
 
 ---
 
-## 🚧 Upcoming Analysis
+# Future Enhancements
 
-The following analyses will be added as the project progresses.
-
-### Sales Trend Analysis
-
-- Year-over-Year Growth
-- Monthly Order Trends
-- Time-of-Day Purchase Analysis
-
-### Customer Analysis
-
-- Customer Distribution by State
-- Regional Performance
-
-### Delivery Analysis
-
-- Delivery Time
-- Delivery Delays
-- Estimated vs Actual Delivery
-
-### Freight Analysis
-
-- Freight Cost by State
-- Highest and Lowest Freight Regions
-
-### Payment Analysis
-
-- Payment Types
-- Installments
-- Payment Trends
+- Interactive Tableau Dashboard
+- Executive Dashboard
+- Sales Dashboard
+- Logistics Dashboard
+- Customer Dashboard
+- Business KPI Dashboard
 
 ---
 
-# 📸 Screenshots
-
-Project screenshots will be added as each analysis is completed.
-
----
-
-# 💡 Key Insights
-
-This section will be updated after completing all business analyses.
-
----
-
-# 📈 Business Recommendations
-
-Recommendations will be added after completing the full analysis.
-
----
-
-# 👨‍💻 Author
+# About Me
 
 **Pankaj Vats**
 
-Technical Support Specialist | Aspiring Data Analyst
+Aspiring Data Analyst
 
-British Columbia, Canada
+Skills:
+
+- SQL
+- Tableau
+- Google BigQuery
+- Python
+- Git & GitHub
+- Data Visualization
+- Business Analytics
+
+---

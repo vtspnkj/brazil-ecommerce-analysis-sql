@@ -1,6 +1,6 @@
 # Business Questions Answered
 
-This project answers 23 real-world business questions using SQL and Google BigQuery.
+This project answers 23 business questions using SQL and Google BigQuery.
 
 ---
 
@@ -59,7 +59,6 @@ This project answers 23 real-world business questions using SQL and Google BigQu
 ---
 
 # Skills Demonstrated
-
 - Data Cleaning
 - SQL Querying
 - Joins

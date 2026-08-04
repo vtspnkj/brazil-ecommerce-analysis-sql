@@ -56,6 +56,6 @@ Main relationships include:
 
 ## Source
 
-Target Brazil E-commerce Case Study (Scaler)
+Target Brazil E-commerce Case Study
 
 Public dataset based on the Olist Brazilian E-commerce Dataset.
